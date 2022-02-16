@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    background-image: url('./pexels-zsófia-fehér-9031436.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 480px;
+
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color: papayawhip;
+    border-radius: 20px;
+    position: absolute;
+    background-image:url('./pexels-pixabay-257092.jpg');
+    background-position: -124px -233px;
+    background-repeat: no-repeat;
+    margin-top: -428px;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.card .perfil{
+    width: 170px;
+    margin-top: 100px;
+    margin-left: 167px;
+    border-radius: 80px;
+}
+.card p{
+    margin: 20px;
+    text-align: center;
+    color: #EC7063;
+}
+.list{
+    list-style: none;
+    color: #EC7063;
+    display: grid;
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 20px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.list li{
+    width: 100px;
+    justify-self: center;
+}
+.list li a{
+    color: #EC7063;
+}
+.buttom{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    height: 10%;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #EC7063;
+    color: papayawhip;
+}
+.buttom:hover{
+    color: #EC7063;
+    background-color: papayawhip;
+    border: 1px solid #EC7063;
+}

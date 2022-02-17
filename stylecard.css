@@ -7,7 +7,7 @@ a{
     text-decoration: none;
 }
 .body{
-    background-image: url("https://images.pexels.com/photos/9031436/pexels-photo-9031436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url('./pexels-zsófia-fehér-9031436.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -20,7 +20,7 @@ a{
     background-color: papayawhip;
     border-radius: 20px;
     position: absolute;
-    background-image:url("https://images.pexels.com/photos/257092/pexels-photo-257092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image:url('./pexels-pixabay-257092.jpg');
     background-position: -124px -233px;
     background-repeat: no-repeat;
     margin-top: -428px;

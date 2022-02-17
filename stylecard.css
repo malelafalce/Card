@@ -77,3 +77,27 @@ section{
     background-color: papayawhip;
     border: 1px solid #EC7063;
 }
+@media screen and (max-width: 522px) {
+    .body{
+        background-size: 520px;
+    }
+    .card{
+        background-position: -245px -281px;
+        width: 270px;
+        height: 373px;
+    }
+    .card .perfil{
+        margin-left: 49px;
+        margin-top: 55px;
+    }
+    .card p{
+        margin: 5px;
+    }
+    .list{
+        margin-top: 18px;
+        grid-template-columns: 118px 103px;
+    }
+    .buttom{
+        padding: 11px;
+    }
+}
